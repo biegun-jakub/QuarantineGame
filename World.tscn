@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Spawner.tscn" type="PackedScene" id=2]
+
+[node name="World" type="Node2D"]
+
+[node name="KinematicBody2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( 232, 210 )
+
+[node name="Spawner" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1024.42, 1.06145 )
+
+[node name="Spawner2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1023.31, 600.508 )
+
+[node name="Spawner3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1022.2, 296.906 )
